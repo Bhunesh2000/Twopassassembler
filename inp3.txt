@@ -1,0 +1,14 @@
+CLA // clear accumulator
+INP 157
+INP 158
+LAC 157
+SUB X
+BRN L1 // dsand nsj
+DSP 157 
+CLA
+BRZ L2 
+L1: DSP 158
+CLA
+BRZ L2 
+L2: STP
+X 159
